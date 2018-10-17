@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testCases>
+  <testCase>
+    <number>1</number>
+    <power>5</power>
+    <accurancy>0.0001</accurancy>
+    <expectedResult>1</expectedResult>
+  </testCase>
+  <testCase>
+    <number>8</number>
+    <power>3</power>
+    <accurancy>0.0001</accurancy>
+    <expectedResult>2</expectedResult>
+  </testCase>
+  <testCase>
+    <number>0.001</number>
+    <power>3</power>
+    <accurancy>0.0001</accurancy>
+    <expectedResult>0.1</expectedResult>
+  </testCase>
+  <testCase>
+    <number>0.04100625 </number>
+    <power>4</power>
+    <accurancy>0.0001</accurancy>
+    <expectedResult>0.45</expectedResult>
+  </testCase>
+  <testCase>
+    <number>8.</number>
+    <power>3</power>
+    <accurancy>0.0001</accurancy>
+    <expectedResult>2</expectedResult>
+  </testCase>
+  <testCase>
+    <number>0.0279936</number>
+    <power>7</power>
+    <accurancy>0.0001</accurancy>
+    <expectedResult>0.6</expectedResult>
+  </testCase>
+  <testCase>
+    <number>0.0081</number>
+    <power>4</power>
+    <accurancy>0.1</accurancy>
+    <expectedResult>0.3</expectedResult>
+  </testCase>
+  <testCase>
+    <number>-0.008</number>
+    <power>3</power>
+    <accurancy>0.1</accurancy>
+    <expectedResult>-0.2</expectedResult>
+  </testCase>
+  <testCase>
+    <number>0.004241979</number>
+    <power>9</power>
+    <accurancy>0.00000001</accurancy>
+    <expectedResult>0.545</expectedResult>
+  </testCase>
+</testCases>
