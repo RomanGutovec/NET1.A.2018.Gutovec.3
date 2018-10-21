@@ -35,7 +35,7 @@ namespace AlgorithmsLib
                 return 0;
             }
 
-            double result = 1;
+            double result = number / power;
             double nextIteratioNumber = 1.0 / power * ((power - 1) * result + (number / Math.Pow(result, power - 1)));
             while (Math.Abs(result - nextIteratioNumber) > accuracy)
             {
